@@ -1,0 +1,456 @@
+/* Estilos globales */
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la altura */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Encabezado */
+header, footer {
+    background-color: #f954d9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#logotipo{
+    width: auto;
+    height: 300px;
+}
+
+header h1, .hero h2, .productos h2, .nosotros h2, .contacto h2, .product h3 {
+    margin: 0;
+    color: #f954d9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+.hero, .nosotros{
+    background-color: #ffe6e6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contacto{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.productos {
+    padding: 50px 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.product img{
+    width: auto;
+    height: 500px;
+}
+
+.product img, .social-icons img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formulario de contacto */
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form label {
+    margin: 10px 0 5px;
+}
+
+.contacto form input, .contacto form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form button {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Sección de redes sociales */
+#social-media {
+    padding: 20px;
+    background-color: #ffe6e6;
+    text-align: center;
+}
+
+#social-media h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Consentimiento de cookies */
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.cookie-consent p {
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-consent a {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+.cookie-consent button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cookie-consent button:hover {
+    background-color: #45a049;
+}
+
+/* Otros estilos */
+#logo, .container iframe {
+    text-align: center;
+}
+
+div#volver{
+    text-align: left;
+    margin-left: 50px;
+}
+
+h1#header_politica{
+    color: black;
+}
+
+#politica{
+    text-align: left;
+    padding: 50px 0; 
+}
+#politica_body, #politica{
+    background-color: #ffe6e6;
+}
+
+div#volver, #politica{
+    margin-left: 50px;
+}
+
+div#myCarousel img{
+    width: auto;
+    height: 700px;
+    margin: auto;
+}
+
+.product-grid img{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+section#productos h2{
+    margin-bottom: : 50px;
+}
+
+.product-grid h3{
+    padding-top: 20px;
+}
+
+section#productos a{
+    color:#f954d9;;
+}
+
+/* GRID De los productos en diferentes páginas */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ajusta el tamaño de las columnas */
+    gap: 10px; /* Espacio entre las imágenes */
+    max-width: 1200px; /* Ajusta el tamaño máximo del grid */
+    padding: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Aquí agregamos la transición para hacer el zoom */
+    transition: transform 0.3s ease; /* Suavidad del efecto */
+}
+
+/* Efecto de zoom cuando pasas el ratón por encima */
+.image-grid img:hover {
+    transform: scale(2.1); /* Aumenta el tamaño de la imagen un 10% */
+}
+
+footer a{
+    color: white;
+}
+
+/* PEDIDOS */
+
+body#pedidos{
+    background-color: #ffe6e6;
+}
+
+section#obras{
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh; /* Altura mínima igual a la ventana del navegador */
+}
+
+section#obras img{
+    width: auto;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    position: absolute;
+    z-index: -999;
+}
+
+img#obrero{
+    height: 600px;
+    top: 50%;
+    left: 15%;
+}
+
+img#grua{
+    height: 700px;
+    top: 38%;
+    left: 35%;
+}
+
+div#obras-sociales img{
+    width: auto;
+    height: 50px;
+    z-index: 1;
+}
+
+.flotante{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 104%;
+    left: 39%;
+    justify-content: center;
+}
+
+footer{
+    padding: 10px;
+    margin-top: auto; /* Empuja el footer hacia el fondo de la página */
+}
+
+#obras-sociales a#instagram{
+    margin-left: 10%;
+}
+
+#obras-sociales a#tiktok{
+    margin-left: 30%;
+}
+
+#obras-sociales a#facebook{
+    margin-left: 30%;
+}
+
+/* Media queries para pantallas pequeñas (móviles) */
+@media (max-width: 720px) {
+    #logotipo {
+        height: 150px; /* Reduce el logo en pantallas móviles */
+    }
+    .product {
+        flex: 1 0 100%; /* Cambia los productos a una sola columna */
+    }
+    .carousel-inner img {
+        height: auto; /* Ajusta las imágenes del carrusel */
+        width: 100%;
+        object-fit: cover; /* Ajusta cómo se recorta la imagen si es necesario */
+    }
+    nav ul {
+        flex-direction: column; /* Acomoda el menú de navegación en una columna */
+    }
+    .social-icons {
+        flex-direction: column; /* Coloca los iconos de redes sociales en columna */
+        justify-content: center;
+        gap: 10px; /* Ajusta el espacio entre iconos si es necesario */
+        margin-left: 50%;
+    }
+    iframe{
+        width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+         box-sizing: border-box;
+    }
+
+    /* PEDIDOS */
+    img#obrero{
+        height: 50%;
+        top: 70%;
+        left: 35%;
+    }
+
+    img#grua{
+        height: 45%;
+        top: 20%;
+        left: 5%;
+    }
+
+    div#obras-sociales img{
+        width: auto;
+        height: 30px;
+        z-index: 1;
+    }
+
+    .flotante{
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        top: 59%;
+        left: 20%;
+        justify-content: center;
+        font-size: 10px;
+    }
+    /* Reseteo de márgenes y paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+/* Media queries para pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #logotipo {
+        height: 200px; /* Ajusta la altura del logo */
+    }
+    .product {
+        flex: 1 0 45%; /* Dos columnas en lugar de tres */
+    }
+       /* PEDIDOS */
+    img#obrero{
+        height: 60%;
+        top: 70%;
+        left: 35%;
+    }
+
+    img#grua{
+        height: 40%;
+        top: 20%;
+        left: 25%;
+    }
+
+    div#obras-sociales img{
+        width: auto;
+        height: 35px;
+        z-index: 1;
+    }
+
+    .flotante{
+        position: absolute;
+        width: 350px;
+        height: 500px;
+        top: 55%;
+        left: 30%;
+        justify-content: center;
+        font-size: 10px;
+    }
+}
