@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Karamelo - Tu tienda de chucherías en Patraix, Valencia. Encuentra una selección única de chuches, snacks y bebidas. ¡Dulce, local y único!">
+    <meta name="keywords" content="Karamelo, chucherías, tienda, Patraix, Valencia, snacks, dulces, bebidas, sin gluten, vegano, sin lactosa">
+    <title>Karamelo - Tienda de Chucherías</title>
+    <link rel="stylesheet" href="styles.css">  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+
+
+</head>
+<body>
+
+    <div id="cookie-consent" class="cookie-consent">
+        <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Al continuar navegando, aceptas nuestra <a href="politica-de-cookies.html">Política de Cookies</a>.</p>
+        <button id="cookie-accept">Aceptar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <header>
+        <div class="container">
+            <img src="./img/logo-svg-sin-fondo.svg" alt="logo" id="logotipo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenidos a Karamelo</h2>
+            <hr>
+            <p>¡Tu tienda de chuches de barrio favorita!</p>
+        </div>
+        <hr>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="./img/tienda_ext.jpg" alt="tienda_ext">
+            </div>
+
+            <div class="item">
+              <img src="./img/tienda_int.jpeg" alt="tienda_int">
+            </div>
+
+            <div class="item">
+              <img src="./img/caramelera1.jpeg" alt="caramelera1">
+            </div>
+
+            <div class="item">
+              <img src="./img/caramelera2.jpeg" alt="caramelera2">
+            </div>
+
+            <div class="item">
+              <img src="./img/caramelera3.jpeg" alt="caramelera3">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+    <section id="productos" class="productos">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <p>¡Haz click para ver nuestra gama de productos!</p>
+           <hr>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="./img/productos/sinGluten.png" alt="no_gluten">
+                    <h3><a href='./no-gluten.html'>Sin glúten</a></h3>
+                </div>
+                <div class="product">
+                    <img src="./img/productos/vegano.png" alt="vegano">
+                    <h3><a href='./veganos.html'>Veganos</a></h3>
+                </div>
+                <div class="product">
+                    <img src="./img/productos/sinLactosa.png" alt="no_lactosa">
+                    <h3><a href='./no-lactosa.html'>Sin lactosa</a></h3>
+                </div>
+                <div class="product">
+                    <img src="./img/productos/snacks.png" alt="snacks">
+                    <h3><a href='./snacks.html'>Snacks</a></h3>
+                </div>
+                <div class="product">
+                    <img src="./img/productos/bebidas.png" alt="bebidas">
+                    <h3><a href='./bebidas.html'>Bebidas</a></h3>
+                </div>
+                <div class="product">
+                    <img src="./img/productos/otros.png" alt="otros">
+                    <h3><a href='./otros.html'>Otros Productos</a></h3>
+                </div>
+
+                <!-- Agrega más productos según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <hr>
+            <p>¡Bienvenidos a nuestra dulce aventura! Somos una nueva tienda de chucherías en el barrio de Patraix en Valencia, apasionados por traer alegría y sabor a cada rincón de la ciudad. Nuestra misión es simple: ofrecer una selección de las chucherías más deliciosas, coloridas y frescas, haciendo de cada visita una experiencia inolvidable.</p>
+            <p><strong>Encuentranos en Pl. Compositor Enrique Granados, 14 Patraix (Valencia).</strong></p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.3322802243138!2d-0.39630962340793957!3d39.46182147160902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604fcf4a1ae41f%3A0xa513d6b5c1ba2087!2sKaramelo!5e0!3m2!1ses!2ses!4v1729420369920!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <!-- Elemento para mostrar el mensaje -->
+            <p id="status-message"></p>
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <!-- To simplify the tutorial, the value is static. -->
+                <input type="hidden" name="contact_number" value="697483">
+                <label>Nombre</label>
+                <input type="text" name="user_name" placeholder="Ejemplo: Luisa">
+                <label>Email</label>
+                <input type="email" name="user_email" placeholder="Ejemplo: luisa@gmail.com">
+                <label>Mensaje</label>
+                <textarea name="message" placeholder="Escriba su mensaje aquí"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <section id="social-media">
+        <h2>¡Síguenos en nuestras redes sociales!</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/karamelo.candyshop" target="_blank" aria-label="Síguenos en Instagram">
+                <img src="./img/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@karamelo.candy?_t=8qkSc66ozyK&_r=1" target="_blank" aria-label="Síguenos en TikTok">
+                <img src="./img/tiktok-icon.png" alt="Tiktok">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61567299518370" target="_blank" aria-label="Síguenos en Facebook">
+                <img src="./img/facebook.png" alt="facebook" id="facebook">
+            </a>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Karamelo. Todos los derechos reservados.</p>
+            <p>Derechos de autor de los iconos usados en esta web:</p>
+            <a href="https://www.flaticon.es/iconos-gratis/maquina-de-chicles" title="máquina de chicles iconos">Máquina de chicles iconos creados por Vitaly Gorbachev - Flaticon</a>
+            <a href="https://www.flaticon.es/iconos-gratis/bebida" title="bebida iconos">Bebida iconos creados por Freepik - Flaticon</a>
+            <a href="https://www.flaticon.es/iconos-gratis/bocadillo" title="bocadillo iconos">Bocadillo iconos creados por Freepik - Flaticon</a>
+            <br>
+            <a href="https://www.pngegg.com/es/png-xpjpx" title="bocadillo iconos">Sin gluten</a>
+            <a href="https://www.flaticon.es/iconos-gratis/vegano" title="vegano iconos">Vegano iconos creados por Freepik - Flaticon</a>
+            <a href="https://www.flaticon.es/iconos-gratis/sin-lactosa" title="sin lactosa iconos">Sin lactosa iconos creados por Nadiinko - Flaticon</a>
+        </div>
+    </footer>
+</body>
+</html>

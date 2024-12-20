@@ -1,0 +1,446 @@
+"productos": [
+    {
+      "nombre": "besosTwisty",
+      "imagen": "./img/productos/sin_gluten/besosTwisty.jpg"
+    },
+    {
+      "nombre": "besosFresa",
+      "imagen": "./img/productos/sin_gluten/besosFresa.jpg"
+    },
+    {
+      "nombre": "moras",
+      "imagen": "./img/productos/sin_gluten/moras.jpg"
+    },
+    {
+      "nombre": "fresas",
+      "imagen": "./img/productos/sin_gluten/fresas.jpg"
+    },
+    {
+      "nombre": "gusanos",
+      "imagen": "./img/productos/sin_gluten/gusanos.jpg"
+    },
+    {
+      "nombre": "orquitas",
+      "imagen": "./img/productos/sin_gluten/orquitas.jpg"
+    },
+    {
+      "nombre": "tajadasSandia",
+      "imagen": "./img/productos/sin_gluten/tajadasSandia.jpg"
+    },
+    {
+      "nombre": "haribo",
+      "imagen": "./img/productos/sin_gluten/haribo.jpg"
+    },
+    {
+      "nombre": "almejas",
+      "imagen": "./img/productos/sin_gluten/almejas.jpg"
+    },
+    {
+      "nombre": "corazones",
+      "imagen": "./img/productos/sin_gluten/corazones.jpg"
+    },
+    {
+      "nombre": "cocacola_verde",
+      "imagen": "./img/productos/sin_gluten/cocacola_verde.jpg"
+    },
+    {
+      "nombre": "huevos",
+      "imagen": "./img/productos/sin_gluten/huevos.jpg"
+    },
+    {
+      "nombre": "miniFresas",
+      "imagen": "./img/productos/sin_gluten/miniFresas.jpg"
+    },
+    {
+      "nombre": "miniFresasPica",
+      "imagen": "./img/productos/sin_gluten/miniFresasPica.jpg"
+    },
+    {
+      "nombre": "manzanas",
+      "imagen": "./img/productos/sin_gluten/manzanas.jpg"
+    },
+    {
+      "nombre": "tiburonesColores",
+      "imagen": "./img/productos/sin_gluten/tiburonesColores.jpg"
+    },
+    {
+      "nombre": "platanos",
+      "imagen": "./img/productos/sin_gluten/platanos.jpg"
+    },
+    {
+      "nombre": "tortugasColores",
+      "imagen": "./img/productos/sin_gluten/tortugasColores.jpg"
+    },
+    {
+      "nombre": "pizzas",
+      "imagen": "./img/productos/sin_gluten/pizzas.jpg"
+    },
+    {
+      "nombre": "nubesRellenas",
+      "imagen": "./img/productos/sin_gluten/nubesRellenas.jpg"
+    },
+    {
+      "nombre": "nubesAzules",
+      "imagen": "./img/productos/sin_gluten/nubesAzules.jpg"
+    },
+    {
+      "nombre": "nubesTwisty",
+      "imagen": "./img/productos/sin_gluten/nubesTwisty.jpg"
+    },
+    {
+      "nombre": "gajos",
+      "imagen": "./img/productos/sin_gluten/gajos.jpg"
+    },
+    {
+      "nombre": "deliJelly",
+      "imagen": "./img/productos/sin_gluten/deliJelly.jpg"
+    },
+    {
+      "nombre": "cerezas",
+      "imagen": "./img/productos/sin_gluten/cerezas.jpg"
+    },
+    {
+      "nombre": "flanes",
+      "imagen": "./img/productos/sin_gluten/flanes.jpg"
+    },
+    {
+      "nombre": "cocacola_marron",
+      "imagen": "./img/productos/sin_gluten/cocacola_marron.jpg"
+    },
+    {
+      "nombre": "arosColores",
+      "imagen": "./img/productos/sin_gluten/arosColores.jpg"
+    },
+    {
+      "nombre": "guindillas",
+      "imagen": "./img/productos/sin_gluten/guindillas.jpg"
+    },
+    {
+      "nombre": "calabazas",
+      "imagen": "./img/productos/sin_gluten/calabazas.jpg"
+    },
+    {
+      "nombre": "delfines",
+      "imagen": "./img/productos/sin_gluten/delfines.jpg"
+    },
+    {
+      "nombre": "nubesRojas",
+      "imagen": "./img/productos/sin_gluten/nubesRojas.jpg"
+    },
+    {
+      "nombre": "nubes",
+      "imagen": "./img/productos/sin_gluten/nubes.jpg"
+    },
+    {
+      "nombre": "nubesPsicodelicas",
+      "imagen": "./img/productos/sin_gluten/nubesPsicodelicas.jpg"
+    },
+    {
+      "nombre": "dedos",
+      "imagen": "./img/productos/sin_gluten/dedos.jpg"
+    },
+    {
+      "nombre": "huesos",
+      "imagen": "./img/productos/sin_gluten/huesos.jpg"
+    },
+    {
+      "nombre": "dentaduras",
+      "imagen": "./img/productos/sin_gluten/dentaduras.jpg"
+    },
+    {
+      "nombre": "escalofrios",
+      "imagen": "./img/productos/sin_gluten/escalofrios.jpg"
+    },
+    {
+      "nombre": "calaveras",
+      "imagen": "./img/productos/sin_gluten/calaveras.jpg"
+    },
+    {
+      "nombre": "ladrillos",
+      "imagen": "./img/productos/sin_gluten/ladrillos.jpg"
+    },
+    {
+      "nombre": "megaCrujientes",
+      "imagen": "./img/productos/sin_gluten/megaCrujientes.jpg"
+    },
+    {
+      "nombre": "alubias",
+      "imagen": "./img/productos/sin_gluten/alubias.jpg"
+    },
+    {
+      "nombre": "flores",
+      "imagen": "./img/productos/sin_gluten/flores.jpg"
+    },
+    {
+      "nombre": "pandas",
+      "imagen": "./img/productos/sin_gluten/pandas.jpg"
+    },
+    {
+      "nombre": "chicleMelon",
+      "imagen": "./img/productos/sin_gluten/chicleMelon.jpg"
+    },
+    {
+      "nombre": "chicleSandia",
+      "imagen": "./img/productos/sin_gluten/chicleSandia.jpg"
+    },
+    {
+      "nombre": "caramelosHalloween",
+      "imagen": "./img/productos/sin_gluten/caramelosHalloween.jpg"
+    },
+    {
+      "nombre": "cosasRojas",
+      "imagen": "./img/productos/sin_gluten/cosasRojas.jpg"
+    },
+    {
+      "nombre": "miniNubes",
+      "imagen": "./img/productos/sin_gluten/miniNubes.jpg"
+    },
+    {
+      "nombre": "monedas",
+      "imagen": "./img/productos/sin_gluten/monedas.jpg"
+    },
+    {
+      "nombre": "bastonazos",
+      "imagen": "./img/productos/sin_gluten/bastonazos.jpg"
+    },
+    {
+      "nombre": "shocobolas",
+      "imagen": "./img/productos/sin_gluten/shocobolas.jpg"
+    },
+    {
+      "nombre": "shocobolas_blancas",
+      "imagen": "./img/productos/sin_gluten/shocobolas_blancas.jpg"
+    },
+    {
+      "nombre": "corazonesChoco",
+      "imagen": "./img/productos/sin_gluten/corazonesChoco.jpg"
+    },
+    {
+      "nombre": "corazonesChocoRojos",
+      "imagen": "./img/productos/sin_gluten/corazonesChocoRojos.jpg"
+    },
+    {
+      "nombre": "limones",
+      "imagen": "./img/productos/sin_gluten/limones.jpg"
+    },
+    {
+      "nombre": "ranas",
+      "imagen": "./img/productos/sin_gluten/ranas.jpg"
+    },
+    {
+      "nombre": "estrellas",
+      "imagen": "./img/productos/sin_gluten/estrellas.jpg"
+    },
+    {
+      "nombre": "tofins",
+      "imagen": "./img/productos/sin_gluten/tofins.jpg"
+    },
+        {
+      "nombre": "palotes",
+      "imagen": "./img/productos/sin_lactosa/palotes.jpg"
+    },
+    {
+      "nombre": "orquitas",
+      "imagen": "./img/productos/sin_lactosa/orquitas.jpg"
+    },
+    {
+      "nombre": "almejas",
+      "imagen": "./img/productos/sin_lactosa/almejas.jpg"
+    },
+    {
+      "nombre": "serpientesColores",
+      "imagen": "./img/productos/sin_lactosa/serpientesColores.jpg"
+    },
+    {
+      "nombre": "burgers",
+      "imagen": "./img/productos/sin_lactosa/burgers.jpg"
+    },
+    {
+      "nombre": "tajadasSandiaVegana",
+      "imagen": "./img/productos/sin_lactosa/tajadasSandiaVegana.jpg"
+    },
+    {
+      "nombre": "pulpos",
+      "imagen": "./img/productos/sin_lactosa/pulpos.jpg"
+    },
+    {
+      "nombre": "cocacola_verde",
+      "imagen": "./img/productos/sin_lactosa/cocacola_verde.jpg"
+    },
+    {
+      "nombre": "cerezas",
+      "imagen": "./img/productos/sin_lactosa/cerezas.jpg"
+    },
+    {
+      "nombre": "gatos",
+      "imagen": "./img/productos/sin_lactosa/gatos.jpg"
+    },
+    {
+      "nombre": "arosSinLactosa",
+      "imagen": "./img/productos/sin_lactosa/arosSinLactosa.jpg"
+    },
+    {
+      "nombre": "delfines",
+      "imagen": "./img/productos/sin_lactosa/delfines.jpg"
+    },
+    {
+      "nombre": "cosasRojas",
+      "imagen": "./img/productos/sin_lactosa/cosasRojas.jpg"
+    },
+    {
+      "nombre": "arosColores",
+      "imagen": "./img/productos/sin_lactosa/arosColores.jpg"
+    },
+    {
+      "nombre": "haribo",
+      "imagen": "./img/productos/veganos/haribo.jpg"
+    },
+    {
+      "nombre": "ositosAzucar",
+      "imagen": "./img/productos/veganos/ositosAzucar.jpg"
+    },
+    {
+      "nombre": "gusanos",
+      "imagen": "./img/productos/veganos/gusanos.jpg"
+    },
+    {
+      "nombre": "gusanosPica",
+      "imagen": "./img/productos/veganos/gusanosPica.jpg"
+    },
+    {
+      "nombre": "corazones",
+      "imagen": "./img/productos/veganos/corazones.jpg"
+    },
+    {
+      "nombre": "huevos",
+      "imagen": "./img/productos/veganos/huevos.jpg"
+    },
+    {
+      "nombre": "regalizCereza",
+      "imagen": "./img/productos/veganos/regalizCereza.jpg"
+    },
+    {
+      "nombre": "respiralEucalipto",
+      "imagen": "./img/productos/veganos/respiralEucalipto.jpg"
+    },
+    {
+      "nombre": "RespiralLimon",
+      "imagen": "./img/productos/veganos/RespiralLimon.jpg"
+    },
+    {
+      "nombre": "respiralRegaliz",
+      "imagen": "./img/productos/veganos/respiralRegaliz.jpg"
+    },
+    {
+      "nombre": "respiralMiel",
+      "imagen": "./img/productos/veganos/respiralMiel.jpg"
+    },
+       {
+      "nombre": "gusanitosKetchup",
+      "imagen": "./img/productos/snacks/gusanitosKetchup.jpg"
+    },
+    {
+      "nombre": "palomitasKetchup",
+      "imagen": "./img/productos/snacks/palomitasKetchup.jpg"
+    },
+    {
+      "nombre": "palomitasMantequilla",
+      "imagen": "./img/productos/snacks/palomitasMantequilla.jpg"
+    },
+    {
+      "nombre": "kikonazo",
+      "imagen": "./img/productos/snacks/kikonazo.jpg"
+    },
+    {
+      "nombre": "pajitasKetchup",
+      "imagen": "./img/productos/snacks/pajitasKetchup.jpg"
+    },
+    {
+      "nombre": "pipas",
+      "imagen": "./img/productos/snacks/pipas.jpg"
+    },
+    {
+      "nombre": "piscolabis",
+      "imagen": "./img/productos/snacks/piscolabis.jpg"
+    },
+    {
+      "nombre": "trikers",
+      "imagen": "./img/productos/snacks/trikers.jpg"
+    },
+    {
+      "nombre": "risketos",
+      "imagen": "./img/productos/snacks/risketos.jpg"
+    },
+    {
+      "nombre": "monchitos",
+      "imagen": "./img/productos/snacks/monchitos.jpg"
+    },
+    {
+      "nombre": "palomitasCaramelo",
+      "imagen": "./img/productos/snacks/palomitasCaramelo.jpg"
+    },
+    {
+      "nombre": "peguitos",
+      "imagen": "./img/productos/snacks/peguitos.jpg"
+    },
+    {
+      "nombre": "matchBalls",
+      "imagen": "./img/productos/snacks/matchBalls.jpg"
+    },
+    {
+      "nombre": "patatasOnduladas",
+      "imagen": "./img/productos/snacks/patatasOnduladas.jpg"
+    },
+    {
+      "nombre": "patatasCampesinas",
+      "imagen": "./img/productos/snacks/patatasCampesinas.jpg"
+    },
+    {
+      "nombre": "patatasClasicas",
+      "imagen": "./img/productos/snacks/patatasClasicas.jpg"
+    },
+    {
+      "nombre": "patatasJamonQueso",
+      "imagen": "./img/productos/snacks/patatasJamonQueso.jpg"
+    },
+      {
+      "nombre": "cerdanHalloween",
+      "imagen": "./img/productos/otros/cerdanHalloween.jpg"
+    },
+    {
+      "nombre": "chicleFresa",
+      "imagen": "./img/productos/otros/chicleFresa.jpg"
+    },
+    {
+      "nombre": "chicleMenta",
+      "imagen": "./img/productos/otros/chicleMenta.jpg"
+    },
+    {
+      "nombre": "chiclesColores",
+      "imagen": "./img/productos/otros/chiclesColores.jpg"
+    },
+    {
+      "nombre": "chicleVampiro",
+      "imagen": "./img/productos/otros/chicleVampiro.jpg"
+    },
+    {
+      "nombre": "chicleZombie",
+      "imagen": "./img/productos/otros/chicleZombie.jpg"
+    },
+    {
+      "nombre": "chupaChups",
+      "imagen": "./img/productos/otros/chupaChups.jpg"
+    },
+    {
+      "nombre": "piruletasCorazon",
+      "imagen": "./img/productos/otros/piruletasCorazon.jpg"
+    },
+    {
+      "nombre": "unicornBalls",
+      "imagen": "./img/productos/otros/unicornBalls.jpg"
+    },
+    {
+      "nombre": "zumrok",
+      "imagen": "./img/productos/otros/zumrok.jpg"
+    }
+  ]

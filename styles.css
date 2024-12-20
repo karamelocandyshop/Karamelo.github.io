@@ -1,0 +1,479 @@
+/* Estilos globales */
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la altura */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Encabezado */
+header, footer {
+    background-color: #f954d9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#logotipo{
+    width: auto;
+    height: 300px;
+}
+
+header h1, .hero h2, .productos h2, .nosotros h2, .contacto h2, .product h3 {
+    margin: 0;
+    color: #f954d9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+.hero, .nosotros{
+    background-color: #ffe6e6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contacto{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.productos {
+    padding: 50px 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.product img{
+    width: auto;
+    height: 500px;
+}
+
+.product img, .social-icons img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formulario de contacto */
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form label {
+    margin: 10px 0 5px;
+}
+
+.contacto form input, .contacto form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form button {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Sección de redes sociales */
+#social-media {
+    padding: 20px;
+    background-color: #ffe6e6;
+    text-align: center;
+}
+
+#social-media h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Consentimiento de cookies */
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+.cookie-consent p {
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-consent a {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+.cookie-consent button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cookie-consent button:hover {
+    background-color: #45a049;
+}
+
+/* Otros estilos */
+#logo, .container iframe {
+    text-align: center;
+}
+
+div#volver{
+    text-align: left;
+    margin-left: 50px;
+}
+
+h1#header_politica{
+    color: black;
+}
+
+#politica{
+    text-align: left;
+    padding: 50px 0; 
+}
+#politica_body, #politica{
+    background-color: #ffe6e6;
+}
+
+div#volver, #politica{
+    margin-left: 50px;
+}
+
+div#myCarousel img{
+    width: auto;
+    height: 700px;
+    margin: auto;
+}
+
+.product-grid img{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+section#productos h2{
+    margin-bottom: : 50px;
+}
+
+.product-grid h3{
+    padding-top: 20px;
+}
+
+section#productos a{
+    color:#f954d9;;
+}
+
+#pedidosSencillo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px; /* Limita la anchura del texto */
+    height: 100vh; /* Toma toda la altura de la ventana */
+    margin: 0 auto; /* Centra horizontalmente */
+    box-sizing: border-box;
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#pedidosSencillo h1 {
+    font-size: 2.5em; /* Título más grande */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #333; /* Color del título */
+}
+
+#pedidosSencillo p {
+    font-size: 1.2em;
+    line-height: 1.6; /* Mejora la legibilidad */
+    color: #555; /* Texto más suave */
+    margin-bottom: 15px; /* Espaciado entre párrafos */
+}
+
+#pedidosSencillo ul {
+    list-style-type: disc; /* Añade viñetas */
+    padding-left: 20px; /* Indentación */
+    text-align: left; /* Lista alineada a la izquierda */
+}
+
+#pedidosSencillo ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+    font-size: 1.1em;
+}
+
+#contactoPedidos{
+    margin: 0 auto; /* Centra horizontalmente */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Contenedor del grid */
+.image-grid, .image-grid-pedidos {
+  display: grid;                  /* Define un grid */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  /* Distribuye las imágenes en columnas flexibles */
+  gap: 16px;                       /* Espaciado entre las imágenes */
+  justify-items: center;           /* Centra las imágenes horizontalmente */
+  align-items: center;             /* Centra las imágenes verticalmente */
+      padding: 10px;
+    margin: auto;
+}
+
+
+.image-grid img, .image-grid-pedidos img{
+  width: 100%;                     /* Ajusta al 100% del ancho del contenedor */
+  height: 100%;                    /* Ajusta la altura al 100% del contenedor */
+  object-fit: cover;               /* Hace que la imagen cubra el área sin distorsionarse */
+  border-radius: 8px;              /* Redondea los bordes de las imágenes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 100%;                 /* No se excede del ancho del contenedor */
+  max-height: 200px;               /* Máxima altura de 200px */
+  object-position: center;         /* Alinea la imagen al centro */
+    
+}
+
+.image-grid img, .image-grid-pedidos img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-grid img {  
+    /* Aquí agregamos la transición para hacer el zoom */
+    transition: transform 0.3s ease; /* Suavidad del efecto */
+}
+
+/* Efecto de zoom cuando pasas el ratón por encima */
+.image-grid img:hover {
+    transform: scale(2.1); /* Aumenta el tamaño de la imagen un 10% */
+    cursor: pointer;                 /* Cambia el cursor para indicar interactividad */
+}
+
+footer a{
+    color: white;
+}
+
+/* PEDIDOS */
+
+body#pedidos{
+    background-color: #ffe6e6;
+}
+
+footer{
+    padding: 10px;
+    margin-top: auto; /* Empuja el footer hacia el fondo de la página */
+}
+
+section#botones{
+    text-align: center;
+    margin-top:3%;
+}
+
+section#botones img{
+    width: auto;
+    height: 200px;
+}
+
+#menuPedidos p{
+    color:white;
+}
+
+#menuPedidos {
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: row; /* Coloca los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente el contenido */
+    background-color: deeppink;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+/* Ajustes específicos para el botón de "Atrás" */
+#botonAtras button {
+    margin: 0; /* Elimina márgenes adicionales */
+    margin-left: 200px;
+}
+
+/* Espacio entre el input de búsqueda y el botón */
+#search-box #search-button {
+    margin-right: 300px;
+}
+
+#search-box #search-box{
+    margin-left: 400px;
+}
+
+/* Ajustes para centrar y dar estilo a los selects */
+#individual select,
+#fiestas select {
+    
+    width: auto; /* Ajusta el ancho para adaptarse a la disposición horizontal */
+    margin-right: 400px;
+}
+
+div#iconoCarrito{
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    gap: 20px; /* Espacio entre el número y el botón */    
+}
+
+div#iconoCarrito img{
+    width: auto;
+    height: 50px;
+}
+
+/* COLORES DEL BORDE SEGÚN ALERGIA */
+
+#sin_gluten img, #snacks img, #chicles img{
+    border: 2px solid orange;
+}
+
+#sin_lactosa img{
+  border: 2px solid blue;
+}
+
+#veganas img{
+    border: 2px solid green;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/* Media queries para pantallas pequeñas (móviles) */
+@media (max-width: 720px) {
+    #logotipo {
+        height: 150px; /* Reduce el logo en pantallas móviles */
+    }
+    .product {
+        flex: 1 0 100%; /* Cambia los productos a una sola columna */
+    }
+    .carousel-inner img {
+        height: auto; /* Ajusta las imágenes del carrusel */
+        width: 100%;
+        object-fit: cover; /* Ajusta cómo se recorta la imagen si es necesario */
+    }
+    nav ul {
+        flex-direction: column; /* Acomoda el menú de navegación en una columna */
+    }
+    .social-icons {
+        flex-direction: column; /* Coloca los iconos de redes sociales en columna */
+        justify-content: center;
+        gap: 10px; /* Ajusta el espacio entre iconos si es necesario */
+        margin-left: 50%;
+    }
+    iframe{
+        width: 90%; /* Ocupa el 90% del ancho de la pantalla */
+         box-sizing: border-box;
+    }
+        
+    /* Reseteo de márgenes y paddings */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+/* Media queries para pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #logotipo {
+        height: 200px; /* Ajusta la altura del logo */
+    }
+    .product {
+        flex: 1 0 45%; /* Dos columnas en lugar de tres */
+    }
+}
